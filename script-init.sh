@@ -18,12 +18,12 @@ add1=1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=321-1 ]
+	if [ ${parts[0]} == "321-1" ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -45,12 +45,12 @@ cd 005-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=005-1 ]
+	if [ ${parts[0]} == 005-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -74,12 +74,12 @@ cd 10659-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=10659-1 ]
+	if [ ${parts[0]} == 10659-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -101,12 +101,12 @@ cd 10660-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=10660-1 ]
+	if [ ${parts[0]} == 10660-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -133,12 +133,12 @@ cd 453-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=453-1 ]
+	if [ ${parts[0]} == 453-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -160,12 +160,12 @@ cd 454-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=454-1 ]
+	if [ ${parts[0]} == 454-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -189,12 +189,12 @@ cd 1218-2
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=1218-2 ]
+	if [ ${parts[0]} == 1218-2 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -216,12 +216,12 @@ cd 1219-2
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=1219-2 ]
+	if [ ${parts[0]} == 1219-2 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -248,12 +248,12 @@ cd 561411-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=561411-1 ]
+	if [ ${parts[0]} == 561411-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -275,12 +275,12 @@ cd 41041-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=41041-1 ]
+	if [ ${parts[0]} == 41041-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -304,12 +304,12 @@ cd 41017-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=41017-1 ]
+	if [ ${parts[0]} == 41017-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
@@ -331,12 +331,12 @@ cd 41018-1
 count=0
 while IFS=$'\t' read -r -a parts
 do
-	if [ ${parts[0]}=41018-1 ]
+	if [ ${parts[0]} == 41018-1 ]
 	then
 		parts_numb=${parts[2]}
 		while IFS=$'\t' read -r -a parts_n
 		do
-			if [ ${parts_n[0]} = $parts_numb ] && [ $count -lt 5 ]
+			if [ ${parts_n[0]} == $parts_numb ] && [ $count -lt 5 ]
 			then
 				echo "Quantity: ${parts[1]}" > "${parts_n[1]}.txt"
 				count=$((count + add1))
